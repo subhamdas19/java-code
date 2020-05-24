@@ -17,3 +17,4 @@ TreeSet uses Comparator interface by default
 treeSet in descending order
 SortedSet<String> tree=new TreeSet<String>(Comparator.reverseOrder());
 https://stackoverflow.com/questions/29699103/treeset-constructor-with-comparator-parameter
+https://github.com/callicoder/java-collections-examples/tree/master/
