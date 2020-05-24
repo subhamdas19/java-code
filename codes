@@ -12,3 +12,4 @@ https://www.geeksforgeeks.org/linkedhashset-in-java-with-examples/
 https://www.geeksforgeeks.org/sortedset-java-examples/
 https://stackoverflow.com/questions/19820562/difference-between-navigableset-sortedset-and-treeset-in-java
 https://www.geeksforgeeks.org/treeset-in-java-with-examples/
+TreeSet uses Comparator interface by default
