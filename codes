@@ -24,3 +24,5 @@ https://www.geeksforgeeks.org/thread-pools-java/
 https://www.geeksforgeeks.org/concurrenthashmap-in-java/
 https://www.javatpoint.com/collections-in-java
 https://www.geeksforgeeks.org/exceptions-in-java/
+https://www.javatpoint.com/concurrentmodificationexception-in-java#:~:text=The%20ConcurrentModificationException%20occurs%20when%20an,thread%20is%20iterating%20over%20it.
+https://www.geeksforgeeks.org/copyonwritearraylist-in-java/#:~:text=CopyOnWriteArrayList%3A%20CopyOnWriteArrayList%20class%20is%20introduced,by%20making%20a%20fresh%20copy.&text=It%20is%20thread%2Dsafe%20version%20of%20ArrayList.
