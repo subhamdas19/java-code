@@ -70,4 +70,6 @@ again so its a compiler,we are changing the reference of the variable.
 Immutable class having a mutable object
 https://dzone.com/articles/how-to-create-an-immutable-class-in-java
 
+https://www.geeksforgeeks.org/singleton-class-java/
+
 
