@@ -37,3 +37,8 @@ and Collection of Custom object.
 https://dzone.com/articles/java-getter-and-setter-basics-common-mistakes-and
 Info about shallow copy of ArrayList or Collections,the default clone()
 https://yunmingzhang.wordpress.com/2014/01/08/making-shallow-copies-for-java-arraylist-collections-objects/#:~:text=In%20the%20case%20of%20an,1)%2C%20you%20modify%20copy.
+
+
+Final variable
+https://www.geeksforgeeks.org/final-keyword-java/
+value is constant.for state,if its a final reference variable,then the reference cant be changes,reassigning cant be done but internal state at that reference can be changed.that is we can add or remove elements at that reference
