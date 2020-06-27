@@ -34,6 +34,20 @@ Question:   Given getters and setters,how would u conserve OO priciple such as e
 for eg,we can do a get and then we get the object and then we can set a value to that object using set method,so the state of the object changes.Asked for Collection of String
 and Collection of Custom object.
 
+
+List<User> result = persons.stream()
+                .filter(person -> person.getName().startsWith("J"))
+                .collect(Collectors.toList());
+                
+                
+                to sort this list by age,u can implement a comparable interface with age inside User class
+                
+                in java 8 also u can do
+                studentlist.sort((Student s1, Student s2)->s2.getName().compareTo(s1.getName()));this is for reverse order
+                studentlist.sort((Student s1, Student s2)->s1.getAge()-s2.getAge());   (normal order)
+
+        
+
 https://dzone.com/articles/java-getter-and-setter-basics-common-mistakes-and
 Info about shallow copy of ArrayList or Collections,the default clone()
 https://yunmingzhang.wordpress.com/2014/01/08/making-shallow-copies-for-java-arraylist-collections-objects/#:~:text=In%20the%20case%20of%20an,1)%2C%20you%20modify%20copy.
