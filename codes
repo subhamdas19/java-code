@@ -42,3 +42,15 @@ https://yunmingzhang.wordpress.com/2014/01/08/making-shallow-copies-for-java-arr
 Final variable
 https://www.geeksforgeeks.org/final-keyword-java/
 value is constant.for state,if its a final reference variable,then the reference cant be changes,reassigning cant be done but internal state at that reference can be changed.that is we can add or remove elements at that reference
+
+Immutable class in Java
+https://www.geeksforgeeks.org/create-immutable-class-java/
+The content of object cant be changed after object creation
+why we declare final variables in immutable class-the value of variables cant be changed after object creation
+
+Suppose we have final List<Integer> list=new ArrayList<Integer>();
+
+now during the program somewhere i change to List<Integer> list=new ArrayList<Integer>();
+again so its a compiler,we are changing the reference of the variable.
+
+
