@@ -86,3 +86,30 @@ show( (Object) null);
 show( (Integer) null);
 show( (String) null);
 
+Size of int and Integer
+int is a primitive data type which takes 32 bits(4 bytes) to store.
+Integer is an object which takes 128 bits (16 bytes) to store int value.
+
+When we creates new Integer using new Operator it allocates memory as per follows.
+
+Class Object(32 bits) - which consist of a pointer to the class information, which describes the object in our case its point to java.lang.Integer class
+
+Flags (32 bits)- It is collection of flags that describes the state of object. Like is it has hash-code, is it array or not i.e. its Shape.
+
+Lock (32 bits) - It stores synchronization information of object. whether the object currently synchronized or not.
+
+Above 3 points are called as metadata of an Object.
+
+Lastly metadata is followed by the Object data (32 bits) itself. In case of Integer its single int value.
+All the above explanation is as per 32 bit processor architecture. It can differ from JVM version and vendor.
+
+
+max size of ArrayList-
+The interface however defines the size() method, which returns an int.
+Returns the number of elements in this list. If this list contains more than Integer.MAX_VALUE elements, returns Integer.MAX_VALUE.
+So, no limit, but after you reach Integer.MAX_VALUE, the behaviour of the list changes a bit
+ArrayList (which is tagged) is backed by an array, and is limited to the size of the array - i.e. Integer.MAX_VALUE
+2^31-1 = 2147483647
+
+For HashSet, LinkedHashSet, and EnumSet the add(), remove() and contains() operations cost constant O(1) time. Thanks to the internal HashMap implementation. Likewise, the TreeSet has O(log(n)) time complexity for the operations listed for the previous group
+For ArrayList search takes o(n) time
