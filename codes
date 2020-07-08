@@ -113,3 +113,5 @@ ArrayList (which is tagged) is backed by an array, and is limited to the size of
 
 For HashSet, LinkedHashSet, and EnumSet the add(), remove() and contains() operations cost constant O(1) time. Thanks to the internal HashMap implementation. Likewise, the TreeSet has O(log(n)) time complexity for the operations listed for the previous group
 For ArrayList search takes o(n) time
+
+https://dzone.com/articles/performance-analysis-of-arraylist-and-linkedlist-i
