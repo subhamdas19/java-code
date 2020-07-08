@@ -115,3 +115,5 @@ For HashSet, LinkedHashSet, and EnumSet the add(), remove() and contains() opera
 For ArrayList search takes o(n) time
 
 https://dzone.com/articles/performance-analysis-of-arraylist-and-linkedlist-i
+working of hashmap in java
+
