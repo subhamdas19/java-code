@@ -72,4 +72,17 @@ https://dzone.com/articles/how-to-create-an-immutable-class-in-java
 
 https://www.geeksforgeeks.org/singleton-class-java/
 
+Method overloading with null argements
+void show(Integer a)
+void show(String s)
+void show(Object s)
+
+A a =new A();
+a.show(null);
+
+Answer is compiler will be confused.it will give compiler error.
+way to avoid this is explicitly typecast
+show( (Object) null);
+show( (Integer) null);
+show( (String) null);
 
