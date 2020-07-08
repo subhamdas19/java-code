@@ -123,5 +123,52 @@ spring boot version 2.0
 spring boot atuators supported from 2.0
 what is promethues
 
+https://dzone.com/articles/how-does-singleton-bean-serve-multiple-requests-at
+what is method overloading and overriding 
+difference between interface and abstract class in java 8
+abstract class has a constructor.how do u invoke it?
+lets say a parent class A
+and child class B
+A a=new B();
+how does the parent class constructor invoke?
+its through super keyword.
+
+lets say class a
+{
+int x=10;
+void show()
+{
+}
+}
+lets say class B
+class B extends class A
+{
+int x=20;
+void show()
+{
+}
+}
+
+now A a=new B();
+a.x?/ value
+
+it will print as 10.when we override only methds get overriden not the member variables
+
+
+different types of scope in spring bean
+difference between update and merge in hibernate
+
+Hibernate handles persisting any changes to objects in the session when the session is flushed. update can fail if an instance of the object is already in the session. Merge should be used in that case. It merges the changes of the detached object with an object in the session, if it exists.
+
+Update: if you are sure that the session does not contains an already persistent instance with the same identifier,then use update to save the data in hibernate
+
+Merge: if you want to save your modifications at any time with out knowing about the state of an session, then use merge() in hibernate.
+
+
+Give example of Many to many relationship with notation
+different types of cascade examoles in hibernate
+
+
+
 
 
