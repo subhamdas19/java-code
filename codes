@@ -171,6 +171,7 @@ different types of cascade examoles in hibernate
 
 Kafka
 https://www.oreilly.com/library/view/kafka-the-definitive/9781491936153/ch04.html
+Current offset -> Sent Records -> This is used to avoid resending same records again to the same consumer. Committed offset -> Processed Records -> It is used to avoid resending same records to a new consumer in the event of partition rebalance.
 
 
 
