@@ -174,5 +174,11 @@ https://www.oreilly.com/library/view/kafka-the-definitive/9781491936153/ch04.htm
 Current offset -> Sent Records -> This is used to avoid resending same records again to the same consumer. Committed offset -> Processed Records -> It is used to avoid resending same records to a new consumer in the event of partition rebalance.
 
 
+List is java.util
+Object is java.lang
+Comparable java.lang Comparator java.util
+System.out.print
+Ssytem is final class.Print Stream out is static memeber variable of Syatem class and print is method of PrintStream class
+
 
 
