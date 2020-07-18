@@ -59,6 +59,10 @@ List<User> result = persons.stream()
                 in java 8 also u can do
                 studentlist.sort((Student s1, Student s2)->s2.getName().compareTo(s1.getName()));this is for reverse order
                 studentlist.sort((Student s1, Student s2)->s1.getAge()-s2.getAge());   (normal order)
+                
+                List<Integer> numbers = Arrays.asList(3, 2, 2, 3, 7, 3, 5);
+//get list of unique squares
+List<Integer> squaresList = numbers.stream().map( i -> i*i).distinct().collect(Collectors.toList());
 
         
 
@@ -87,9 +91,22 @@ https://dzone.com/articles/how-to-create-an-immutable-class-in-java
 https://www.geeksforgeeks.org/singleton-class-java/
 
 Method overloading with null argements
+
+void show(String s)
+void show(Object s)
+
+String one will be called more specific
+
+
+
+
+
 void show(Integer a)
 void show(String s)
 void show(Object s)
+
+
+now here specific is Integer and String so compiler confused
 
 A a =new A();
 a.show(null);
@@ -196,6 +213,11 @@ Ssytem is final class.Print Stream out is static memeber variable of Syatem clas
 
 https://www.geeksforgeeks.org/g-fact-31-java-is-strictly-pass-by-value/
 How do u avoid concurrent modification exception in java?
+
+ArrayList, LinkedList, HashSet,LinkedHashset and TreeSet in Collection Interface and HashMap,LinkedHashMap and Treemap are all non-synchronized.
+
+Vector HashTable in Collection Interface is Synchronized
+Diffference between HashTable and Hashmap
 
 
 
