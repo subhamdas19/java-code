@@ -47,7 +47,7 @@ Java Interview related
 Question:   Given getters and setters,how would u conserve OO priciple such as encapsulation and abstraction,so that we cant change the state of the object.
 for eg,we can do a get and then we get the object and then we can set a value to that object using set method,so the state of the object changes.Asked for Collection of String
 and Collection of Custom object.
-
+singleton pattern multithreading
 
 List<User> result = persons.stream()
                 .filter(person -> person.getName().startsWith("J"))
