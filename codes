@@ -264,3 +264,9 @@ what makes kafka different from others
 1. Pull based message delivery - Kafka shifts the onus of state maintenance onto consumers and expects the consumer to pull a message, while traditional brokers maintain the consumer state and push messages to consumer. This is the primary via Kafka when compare to other message brokers is so fast.
 Kafka is a sort of like a message queueing system with a few twists that enable it to support pub/sub, scaling out over many servers, and replaying of messages.
 highly scalable high through put,we add more brokers horizontally
+
+
+5
+
+TreeSet is based on TreeMap, which is a Red-Black Tree implementation. Red-Black Trees are self-balancing binary search trees that guarantee O(log n) performance for search, insert and delete operations
+self balance binary search tree
