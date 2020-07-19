@@ -257,3 +257,10 @@ https://dzone.com/articles/kafka-internals-consumer
 
 If consumer offset is not moving after some time, then consumer is likely to have stopped. If consumer offset is moving, but consumer lag (difference between the end of the log and the consumer offset) is increasing, the consumer is slower than the producer. If the consumer is slow, the typical solution is to increase the degree of parallelism in the consumer. This may require increasing the number of consumers in the consumer group with same id.
 https://www.instaclustr.com/apache-kafka-connect-architecture-overview/
+
+https://hackernoon.com/a-super-quick-comparison-between-kafka-and-message-queues-e69742d855a8
+what makes kafka different from others
+
+1. Pull based message delivery - Kafka shifts the onus of state maintenance onto consumers and expects the consumer to pull a message, while traditional brokers maintain the consumer state and push messages to consumer. This is the primary via Kafka when compare to other message brokers is so fast.
+Kafka is a sort of like a message queueing system with a few twists that enable it to support pub/sub, scaling out over many servers, and replaying of messages.
+highly scalable high through put,we add more brokers horizontally
