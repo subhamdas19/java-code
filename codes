@@ -251,3 +251,5 @@ https://kafka.apache.org/10/javadoc/org/apache/kafka/clients/producer/KafkaProdu
 https://www.cloudkarafka.com/blog/2016-11-30-part1-kafka-for-beginners-what-is-apache-kafka.html
 
 processing.guarantee	Low	The processing mode. Can be either "at_least_once" (default) or "exactly_once". for kafka streams properties
+
+https://www.baeldung.com/kafka-exactly-once for kafka producer using transaction
