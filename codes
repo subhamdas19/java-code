@@ -246,3 +246,8 @@ see dzone
 
 suppose if three controllers use the same base path
 spring.data.rest.basePath=/api
+
+https://kafka.apache.org/10/javadoc/org/apache/kafka/clients/producer/KafkaProducer.html
+https://www.cloudkarafka.com/blog/2016-11-30-part1-kafka-for-beginners-what-is-apache-kafka.html
+
+processing.guarantee	Low	The processing mode. Can be either "at_least_once" (default) or "exactly_once". for kafka streams properties
