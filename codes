@@ -238,3 +238,11 @@ https://www.google.com/search?sxsrf=ALeKk03SKZuUicueL2fLUQ3XDPwsk_RegA%3A1595104
 
 
 https://www.geeksforgeeks.org/upcasting-vs-downcasting-in-java/
+
+spring.profiles.active=dev
+@Profile("dev")
+application.properties
+see dzone
+
+suppose if three controllers use the same base path
+spring.data.rest.basePath=/api
